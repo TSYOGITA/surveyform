@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #main {
+        text-align: center;
+      }
+      #title {
+        background-color: pink;
+        color: royalblue;
+        border: burlywood 3px solid;
+        font-weight: bolder;
+        font-size: 30px;
+      }
+      #description {
+        font-size: 30px;
+      }
+      #submit:hover {
+        background-color: crimson;
+        color: darkblue;
+      }
+    </style>
+  </head>
+  <body id="main">
+    <h1 id="title">REGESTRATION FORM</h1>
+    <p id="description">
+      Please fill the form to complete your Registration and to undergo further
+      processes
+    </p>
+    <form id="survey-form">
+      <label for="name">NAME:</label>
+      <input type="text" id="name" placeholder="Enter your Name" />
+      <br />
+      <br />
+      <label for="email">EMAIL:</label>
+      <input type="email" id="email" required placeholder="Enter your Email" />
+      <br />
+      <br />
+      <label for="number">NUMBER:</label>
+      <input type="number" id="number" min="2" max="100" />
+      <br />
+      <br />
+      <label for="check">HTML:</label>
+      <input type="checkbox" name="check" id="check" />
+      <label for="chec">CSS:</label>
+      <input type="checkbox" name="check" id="chec" />
+      <label for="che">JS:</label>
+      <input type="checkbox" name="check" id="che" />
+      <br />
+      <br />
+      CSE:
+      <input type="radio" id="rad" name="hello" />
+      ECE:
+      <input type="radio" id="ra" name="hello" />
+      EE:
+      <input type="radio" id="re" name="hello" />
+      <br />
+      <br />
+      <select name="working">
+        <option>Internship</option>
+        <option>Job</option>
+        <option>Work from Home</option>
+        <option>PartTime</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      Suggestions:
+      <textarea cols="50" rows="10" placeholder="Give your veiws"></textarea>
+      <br />
+      <br />
+      <input type="submit" id="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>
